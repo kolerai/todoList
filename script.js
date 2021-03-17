@@ -19,6 +19,7 @@ addButtom.addEventListener('click', function(){
         todoList.push(newTodo);
         displayMasages();
         localStorage.setItem('todo', JSON.stringify(todoList));
+        addMasage.value = ''
     }
 });
 
